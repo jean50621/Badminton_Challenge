@@ -1,0 +1,12 @@
+Project_name: "Winner"
+weight : "./last.pt"
+entri_frames_root : "../data/entire_frame/"
+obj_root : "../results/loc_filtered/"
+ball_root : "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+data_size : [224, 224]
+n_test : 30
+save_root : "../results/Winner_results/"
+
+#csv_writer
+prefix : "val"

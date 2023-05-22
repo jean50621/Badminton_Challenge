@@ -1,0 +1,12 @@
+#inference
+Project_name: "Roundhead"
+save_root: "../results/Roundhead_results/"
+weight: "./last.pt"
+entire_frame_root: "../data/entire_frame/"
+obj_root : "../results/loc_filtered/"
+ball_root: "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+data_size : [360, 240]
+
+#csv_writer
+csv_root : "../aicup_final_val.csv"

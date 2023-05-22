@@ -1,0 +1,16 @@
+save_root: "../results/Backhand_results/"
+ckpt_A: "./last_Backhand_player_A.pt"
+ckpt_B: "./last_Backhand_player_B.pt"
+target_goal: "Backhand"
+model_name: "x3d_s"
+in_features: 2048
+out_features: 2
+device_ids: [0, 1]
+entri_frames_root: "../data/entire_frame/"
+yolo_pred_root: "../results/loc_filtered/"
+gt_root: "../val_csvs/"
+data_size: [168, 96]
+n_frames: 5
+
+#csv_writer
+csv_root : "../aicup_final_val.csv"

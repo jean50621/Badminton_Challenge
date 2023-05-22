@@ -1,0 +1,4 @@
+Project_name: "Filter"
+root : "../data/yolov7_output_loc/"
+save_root : "../results/loc_filtered/"
+

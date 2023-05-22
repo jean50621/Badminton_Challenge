@@ -1,0 +1,13 @@
+# inference
+Project_name: "BallLanding"
+weight : "./last.pt"
+entri_frames_root : "../data/entire_frame/"
+obj_root : "../results/loc_filtered/"
+ball_root : "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+save_root : "../results/BallLanding_results/"
+data_size : [760, 540]
+
+# csv_writer
+result_root: "../results/BallLanding_results/"
+

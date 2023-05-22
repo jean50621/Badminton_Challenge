@@ -1,0 +1,9 @@
+## inference
+inf_save_root: "./ball_loc_results/"
+threshold: 0.5
+inH: 520
+inW: 960
+
+## denoise
+datas_root: "./ball_loc_results/"  # contain .mp4(data) and .txt(label)
+denoise_save_root: "../results/ball_loc_filtered/"

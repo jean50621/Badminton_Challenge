@@ -1,0 +1,17 @@
+#inference
+Project_name: "PlayerLocation"
+weight : "./last.pt"
+entri_frames_root : "../data/entire_frame/"
+obj_root : "../results/loc_filtered/"
+ball_root : "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+save_root : "./results/"
+data_size : [760, 540]
+
+#csv_writer
+csv_root : "../aicup_final_val.csv"
+
+#bind_two_results
+skeleton_root : "../results/pose/"
+preds_root : "./results/"
+filtered_root : "../results/PlayerLocation_filtered/"

@@ -1,0 +1,20 @@
+Project_name: "BallType"
+num_classes : 36
+length : 168
+d_model : 448
+dropout : 0.0
+num_layers : 12
+nhead : 16
+dim_feedforward : 2048
+ffn_dropout : 0.05
+att_dropout : 0.05
+proj_dropout : 0.05
+weight : './last.pt'
+obj_root : "../results/loc_filtered/"
+ball_root : "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+save_root : "../results/BallType_results/"
+
+#csv_writer
+prefix : "val"
+

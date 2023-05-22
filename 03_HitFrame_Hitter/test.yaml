@@ -1,0 +1,13 @@
+#inference
+prefix : "val" #val or test
+model_name: "x3d_s"
+weight: "./last.pt"
+in_features: 2048
+out_features: 3
+frame_root: "../data/entire_frame"
+yolo_net_root: "../results/loc_filtered"
+data_size: [640, 320]
+
+#process_hitter_val
+ball_root: "../results/ball_loc_filtered/"
+obj_root: "../results/loc_filtered/"

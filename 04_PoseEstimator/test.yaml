@@ -1,0 +1,5 @@
+#inference
+loc_root: "../results/loc_filtered/"
+img_root: "../data/entire_frame/"
+save_root: "../results/pose"
+

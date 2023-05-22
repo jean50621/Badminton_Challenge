@@ -1,0 +1,11 @@
+#inference
+Project_name: "BallHeight"
+save_root : "../results/BallHeight_results/"
+weight : "./last.pt"
+entire_frame_root : "../data/entire_frame/"
+obj_root : "../results/loc_filtered/"
+ball_root : "../results/ball_loc_filtered/"
+gt_root: "../val_csvs/"
+
+#csv_writer
+csv_root : "../aicup_final_val.csv"
