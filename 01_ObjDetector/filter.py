@@ -321,7 +321,7 @@ def filter1(objs: dict, file_path, save_name):
 def write_new_txt(path:str,new_info:list): 
     with open(path,'w') as f :
         for x in range(len(new_info)):
-            f.write('{} {} {} {} {} \n'.format(new_info[x][0],new_info[x][1],new_info[x][2],new_info[x][3],new_info[x][4]))
+            f.write('{} {} {} {} {}\n'.format(new_info[x][0],new_info[x][1],new_info[x][2],new_info[x][3],new_info[x][4]))
         print("Finish write : ",path)
 
 def process_player(path:str,folder_path:str,info:list,count:int):
